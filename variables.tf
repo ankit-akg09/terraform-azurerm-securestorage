@@ -17,3 +17,8 @@ variable "environment" {
   type        = string
   description = "Environment name"
 }
+
+variable "acct_tier" {
+  type        = string
+  description = "Account Tier name"
+}
